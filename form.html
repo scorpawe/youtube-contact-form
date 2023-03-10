@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./form.css" />
+		<script async src="./form.js"></script>
+		<title>Contact Form</title>
+	</head>
+	<body>
+		<form>
+			<h1>Contact Us</h1>
+			<label for="name">Name: </label>
+			<input
+				id="name"
+				name="name"
+				placeholder="Enter your name"
+			/>
+			<label for="email-add">Email:</label>
+			<input
+				type="email"
+				id="email-add"
+				name="email"
+				placeholder="Enter your email"
+			/>
+			<label for="subject">Subject: </label>
+			<input
+				type="text"
+				id="subject"
+				name="subject"
+				placeholder="Enter the subject"
+			/>
+			<label for="message">Message: </label>
+			<textarea
+				id="message"
+				rows="10"
+				cols="40"
+				name="message"
+				placeholder="Enter the message"
+			></textarea>
+			<input type="submit" value="Send" />
+		</form>
+	</body>
+</html>
